@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <h1 class="logo">Foodie</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Delicious meals delivered to your doorstep</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Search dishes or restaurants..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="categories">
+        <div class="container">
+            <h3>Filter by Category</h3>
+            <ul class="category-list">
+                <li><button>Pizza</button></li>
+                <li><button>Burgers</button></li>
+                <li><button>Sushi</button></li>
+                <li><button>Drinks</button></li>
+                <li><button>Desserts</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Featured Menu Items -->
+    <section class="menu-items">
+        <div class="container">
+            <h3>Featured Items</h3>
+            <div class="grid">
+                <article class="menu-card">
+                    <img src="./pizza-margherita-recipe.jpg" alt="Margherita Pizza">
+                    <div class="card-content">
+                        <h4>Margherita Pizza</h4>
+                        <p>Classic Italian pizza with fresh tomatoes, mozzarella, and basil.</p>
+                        <span class="price">$12.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80" alt="Cheeseburger">
+                    <div class="card-content">
+                        <h4>Cheeseburger</h4>
+                        <p>Juicy beef patty with cheddar, lettuce, tomato, and special sauce.</p>
+                        <span class="price">$9.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./sushi.jpg" alt="Sushi Platter">
+                    <div class="card-content">
+                        <h4>Sushi Platter</h4>
+                        <p>Assorted fresh sushi rolls with wasabi and soy sauce.</p>
+                        <span class="price">$18.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <img src="./chocolate.jpg" alt="Chocolate Cake">
+                    <div class="card-content">
+                        <h4>Chocolate Cake</h4>
+                        <p>Rich, moist chocolate cake topped with ganache and berries.</p>
+                        <span class="price">$6.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurants Section -->
+    <section class="restaurants">
+        <div class="container">
+            <h3>Popular Restaurants</h3>
+            <div class="grid">
+                <article class="restaurant-card">
+                    <img src="./italian.jpg" alt="Italiano Ristorante">
+                    <div class="card-content">
+                        <h4>Italiano Ristorante</h4>
+                        <p>Authentic Italian cuisine with wood-fired pizzas and pasta.</p>
+                        <span>⭐⭐⭐⭐☆</span>
+                    </div>
+                </article>
+                <article class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=800&q=80" alt="Burger Hub">
+                    <div class="card-content">
+                        <h4>Burger Hub</h4>
+                        <p>Classic and gourmet burgers with fresh ingredients.</p>
+                        <span>⭐⭐⭐⭐☆</span>
+                    </div>
+                </article>
+                <article class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80" alt="Sushi World">
+                    <div class="card-content">
+                        <h4>Sushi World</h4>
+                        <p>Fresh sushi, sashimi, and Japanese specialties.</p>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Foodie. All rights reserved.</p>
+            <ul class="footer-nav">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
