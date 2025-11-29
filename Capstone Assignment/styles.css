@@ -1,5 +1,4 @@
-/* Reset & Base */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,15 +9,11 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-
-/* Containers */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* Header */
 .site-header {
     background-color: #ff4757;
     color: #fff;
@@ -47,8 +42,6 @@ body {
 .main-nav a:hover {
     color: #ffeaa7;
 }
-
-/* Hero Section */
 .hero {
     background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     color: #fff;
@@ -77,8 +70,6 @@ body {
 .search-form button:hover {
     background-color: #ff4757;
 }
-
-/* Categories */
 .categories {
     background-color: #fff5f5;
     padding: 2rem 0;
@@ -101,8 +92,6 @@ body {
 .category-list button:hover {
     background-color: #ff4757;
 }
-
-/* Grid Layouts */
 .grid {
     display: grid;
     gap: 2rem;
@@ -114,8 +103,6 @@ body {
 .restaurants .grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
-/* Cards */
 .menu-card, .restaurant-card {
     background-color: #fff;
     border-radius: 10px;
@@ -157,8 +144,6 @@ body {
 .menu-card button:hover {
     background-color: #ff4757;
 }
-
-/* Footer */
 .site-footer {
     background-color: #2f3542;
     color: #fff;
@@ -177,3 +162,4 @@ body {
     text-decoration: none;
     transition: color 0.3s;
 }
+
